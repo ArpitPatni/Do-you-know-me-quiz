@@ -1,3 +1,5 @@
+
+
 var readlineSync=require("readline-sync");
 
 var score=0;
@@ -43,8 +45,12 @@ question4={
   question:"Arpit loves Cricket or Football ? \n",
   answer:"Cricket"
 }
+question5={
+  question:"What is the age of Arpit ? \n",
+  answer:"24"
+}
 
-var questions=[question1,question2,question3,question4];
+var questions=[question1,question2,question3,question4,question5];
 
 for(var i=0;i<questions.length;i++)
 {
